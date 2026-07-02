@@ -5,7 +5,7 @@ import NoteDetails from './Pages/NoteDetails'
 
 function App() {
   return (
-    <div data-theme="cupcake" className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-white">
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
